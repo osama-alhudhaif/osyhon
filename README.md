@@ -1,6 +1,4 @@
 # osyhon
-إليك محتوى ملف `README.md` باللغة الإنجليزية، مصمم ليكون جاهزاً للنسخ واللصق مباشرة في مشروعك على GitHub أو أي منصة أخرى:
-
 ```markdown
 # Osyhon: Systems Programming for Everyone
 
