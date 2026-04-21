@@ -1,0 +1,21 @@
+import RISC-V
+import ARM64
+import x86_64
+
+import battery
+import wifi
+
+# إعداد البطارية
+bsttery = 0      => off
+bsttery = 1-15   => low
+bsttery = 16-99  => good
+bsttery = 100    => full
+
+# تخصيص النطاق
+bsttery = 1-20   => low
+
+# استعلام
+bsttery?
+wifi?
+storage?
+time?

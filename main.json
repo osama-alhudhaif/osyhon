@@ -1,0 +1,35 @@
+{
+  "language": "Osyhon",
+  "extensions": {
+    ".osy": {
+      "control": "developer",
+      "description": "Full access — developer controls everything, errors are their responsibility"
+    },
+    ".oy": {
+      "control": "language",
+      "description": "Safe mode — language auto-fixes errors silently"
+    }
+  },
+  "entry_point": "main.osy or main.oy",
+  "comments": {
+    "symbol": "#",
+    "supports": "all languages"
+  },
+  "query_operator": "?",
+  "queries": [
+    "bsttery?",
+    "wifi?",
+    "storage?",
+    "time?",
+    "errors?"
+  ],
+  "binding_operator": "=>",
+  "imports": {
+    "architectures": ["RISC-V", "ARM64", "x86_64"],
+    "note": "only in main.osy or main.oy",
+    "files": {
+      "syntax": "import filename",
+      "extension": "auto-detected, not required"
+    }
+  }
+}
